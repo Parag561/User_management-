@@ -68,7 +68,6 @@ export const Removeuser = (id) => {
             dispatch(failRequest(err.message))
         })
 
-
     }
 }
 

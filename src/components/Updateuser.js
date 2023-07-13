@@ -19,7 +19,7 @@ const Updateuser = () => {
     e.preventDefault();
     const userobj = { name, email, phone };
     dispatch(FunctionUpdateUser(userobj, id));
-    navigate('/user');
+    navigate('/');
   }
 
   useEffect(() => {
@@ -65,7 +65,7 @@ const Updateuser = () => {
           </div>
           <div className="card-footer" style={{ textAlign: 'left' }}>
             <button className="btn btn-primary" type="submit">Update User</button> |
-            <Link className="btn btn-danger" to={'/user'}>Back</Link>
+            <Link className="btn btn-danger" to={'/'}>Back</Link>
           </div>
         </div>
       </form>

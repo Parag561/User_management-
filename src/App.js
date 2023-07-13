@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path='/user' element={<Userlisting/>}/>
+        <Route path='/' element={<Userlisting/>}/>
         <Route path='/user/add' element={<Adduser/>}/>
         <Route path='/user/edit/:id' element={<Updateuser/>}/>
         <Route path='/user/view/:id' element={<View/>}/>

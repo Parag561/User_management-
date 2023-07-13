@@ -15,7 +15,7 @@ const Adduser = () => {
     e.preventDefault();
     const userobj = { name, email, phone };
     dispatch(FunctionAddUser(userobj));
-    navigate('/user');
+    navigate('/');
   }
 
   return (
@@ -49,7 +49,7 @@ const Adduser = () => {
           </div>
           <div className="card-footer" style={{ textAlign: 'left' }}>
             <button className="btn btn-primary" type="submit">Create User</button> |
-            <Link className="btn btn-danger" to={'/user'}>Back</Link>
+            <Link className="btn btn-danger" to={'/'}>Back</Link>
           </div>
         </div>
       </form>

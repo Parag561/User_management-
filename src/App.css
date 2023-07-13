@@ -30,6 +30,50 @@
   color: #61dafb;
 }
 
+.employee-list{
+    
+}
+
+.head{
+    margin-left: 78px;
+}
+
+.employee-list ul li{
+    display: inline-block;
+    padding: 5px;
+    width: 170px;
+    border: 1px solid black;
+}
+
+.employee-list ul{
+    margin: 0;
+}
+
+.container{
+    margin-left: 40px;
+}
+
+.delebtn{
+    color: black;
+    text-decoration: none;
+    margin: -4px;
+    background-color: #99cdd1;
+    border: solid 1px;
+    cursor: pointer;
+    
+}
+
+.delebt{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin: 23px;
+    background-color: #99cdd1;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
